@@ -107,7 +107,7 @@ $stmt_notif->close();
                     <li class="flex items-start p-3 border-b border-gray-100 last:border-b-0">
                         <span class="text-xl mr-4">🔔</span>
                         <div>
-                            Nilai untuk <a href="course_detail.php?praktikum_id=<?php // Anda mungkin perlu melewati praktikum_id di sini, sesuaikan ?>#" class="font-semibold text-blue-600 hover:underline"><?php echo htmlspecialchars($notif['modul_name']); ?></a> (Praktikum: <?php echo htmlspecialchars($notif['praktikum_name']); ?>) telah diberikan: **<?php echo htmlspecialchars($notif['nilai']); ?>**
+                            Nilai untuk <a href="course_detail.php?praktikum_id=<?php // Anda mungkin perlu melewati praktikum_id di sini, sesuaikan ?>#" class="font-semibold text-blue-600 hover:underline"><?php echo htmlspecialchars($notif['modul_name']); ?></a> (Praktikum: <?php echo htmlspecialchars($notif['praktikum_name']); ?>) telah diberikan: <strong><?php echo htmlspecialchars($notif['nilai']); ?></strong>
                             <p class="text-sm text-gray-500"><?php echo date('d M Y H:i', strtotime($notif['date'])); ?></p>
                         </div>
                     </li>
