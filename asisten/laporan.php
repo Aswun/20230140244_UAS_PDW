@@ -104,7 +104,7 @@ $stmt->close();
                 <option value="0">Semua Mahasiswa</option>
                 <?php foreach ($mahasiswa_options as $mahasiswa): ?>
                     <option value="<?php echo $mahasiswa['id']; ?>" <?php echo ($mahasiswa['id'] == $filter_user_id) ? 'selected' : ''; ?>>
-                        <?php echo htmlspecialchars($mahasiswa['nama_mahasiswa']); ?>
+                        <?php echo htmlspecialchars($mahasiswa['nama']); ?>
                     </option>
                 <?php endforeach; ?>
             </select>
