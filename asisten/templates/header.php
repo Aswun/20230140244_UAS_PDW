@@ -22,7 +22,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
 <body class="bg-gray-100">
 
 <div class="flex h-screen">
-    <aside class="w-64 bg-gray-800 text-white flex flex-col">
+    <aside class="w-64 bg-gray-800 text-white flex flex-col fixed top-0 left-0 h-screen overflow-y-auto">
         <div class="p-6 text-center border-b border-gray-700">
             <h3 class="text-xl font-bold">Panel Asisten</h3>
             <p class="text-sm text-gray-400 mt-1"><?php echo htmlspecialchars($_SESSION['nama']); ?></p>
@@ -68,7 +68,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
         </nav>
     </aside>
 
-    <main class="flex-1 p-6 lg:p-10">
+    <main class="flex-1 p-6 lg:p-10 ml-64">
         <header class="flex items-center justify-between mb-8">
             <h1 class="text-3xl font-bold text-gray-800"><?php echo $pageTitle ?? 'Dashboard'; ?></h1>
             <a href="../logout.php" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300">
