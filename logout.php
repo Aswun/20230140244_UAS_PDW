@@ -7,7 +7,7 @@ $_SESSION = array();
 // Hancurkan session
 session_destroy();
 
-// Redirect ke halaman login
-header("Location: ../login.php");
+// Redirect ke halaman utama
+header("Location: index.php");
 exit;
 ?>

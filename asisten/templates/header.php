@@ -41,6 +41,12 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
                     </a>
                 </li>
                 <li>
+                    <a href="praktikum.php" class="<?php echo ($activePage == 'praktikum') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
+                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
+                        <span>Manajemen Praktikum</span>
+                    </a>
+                </li>
+                <li>
                     <a href="modul.php" class="<?php echo ($activePage == 'modul') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
                         <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
                         <span>Manajemen Modul</span>
@@ -50,6 +56,12 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
                     <a href="laporan.php" class="<?php echo ($activePage == 'laporan') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
                         <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75c0-.231-.035-.454-.1-.664M6.75 7.5h1.5M6.75 12h1.5m6.75 0h1.5m-1.5 3h1.5m-1.5 3h1.5M4.5 6.75h1.5v1.5H4.5v-1.5zM4.5 12h1.5v1.5H4.5v-1.5zM4.5 17.25h1.5v1.5H4.5v-1.5z" /></svg>
                         <span>Laporan Masuk</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="users.php" class="<?php echo ($activePage == 'users') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
+                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.668.204 9.38 9.38 0 002.668-.204m-5.336 0c-1.183.178-2.39.267-3.601.267-1.21 0-2.418-.089-3.601-.267m5.336 0a8.965 8.965 0 01-2.668.204 8.965 8.965 0 01-2.668-.204m-5.336 0a9.38 9.38 0 002.668-.204 9.38 9.38 0 002.668-.204M15 19.128C14.18 20.245 12.92 21 11.5 21s-2.68-.755-3.5-1.872M8.5 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 3a3 3 0 11-6 0 3 3 0 016 0zm-3 3a3 3 0 11-6 0 3 3 0 016 0zm11.5-6a3 3 0 11-6 0 3 3 0 016 0zm3 3a3 3 0 11-6 0 3 3 0 016 0zm-3 3a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                        <span>Manajemen Akun Pengguna</span>
                     </a>
                 </li>
             </ul>
