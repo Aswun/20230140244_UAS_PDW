@@ -43,7 +43,7 @@ SIMPRAK adalah sebuah aplikasi web yang dibuat untuk mengelola kegiatan praktiku
 ![image](https://github.com/user-attachments/assets/a5ff6688-5d76-4fb0-b9d0-eebeb7cb89de)
 
 ### Cari Praktikum
-![image](https://github.com/user-attachments/assets/837d3bc1-03fb-46f7-ad4c-1716313a2746)
+![image](https://github.com/user-attachments/assets/5bc24be3-1f87-4756-bab3-b2b3bb09977e)
 
 ### Detail Praktikum (Mahasiswa)
 ![image](https://github.com/user-attachments/assets/0a159422-69bb-453e-98e8-aef91a0a6b94)
