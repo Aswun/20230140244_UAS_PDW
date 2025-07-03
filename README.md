@@ -60,7 +60,7 @@ SIMPRAK adalah sebuah aplikasi web yang dibuat untuk mengelola kegiatan praktiku
 ### Managemen Modul (Asisten)
 ![image](https://github.com/user-attachments/assets/93fc9eed-0287-4b97-95a4-d5ada03a3567)
 
-### Form Tambah Module (Asisten)
+### Form Tambah Modul (Asisten)
 ![image](https://github.com/user-attachments/assets/59f2e6ba-cc22-4183-965b-9aab5584308a)
 
 ### Laporan Masuk (Asisten)
